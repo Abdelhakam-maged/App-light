@@ -1,0 +1,53 @@
+
+.asks{
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+.asks p{
+  margin-bottom: 75px;
+  color: gray;
+}
+.ask-width{
+width: 40%;
+
+}
+.ask-width div{
+  animation-name: a;
+animation-duration: 3s;
+}
+
+#faq{
+  background-color: white;
+  overflow: hidden;
+}
+
+@media(max-width:768px){
+  .asks{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0;
+  }
+.ask-width{
+  width: 90%;
+  margin: auto;
+  animation-name: a;
+  animation-duration: 4s;
+}
+}
+@media(min-width: 1350px){
+  .asks{
+    width: 1200px;
+    margin: auto;
+  }
+  }
+  @keyframes a{
+    from{
+  translate:0 600px ;
+    }
+    to{
+      
+  translate: 0 0;
+    }
+  }

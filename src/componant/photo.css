@@ -1,0 +1,74 @@
+.photo-header{
+  position: relative;
+  z-index: -1;
+  
+}
+
+.photo{
+  background-image: linear-gradient(to right,#CD9FFA,blueviolet );
+  opacity: .9;
+  
+  height:300px;
+  
+}
+.photo h3{
+text-align: center;
+padding-top:80px ;
+color: white;
+font-size: 45px;
+margin: 0;
+cursor: pointer;
+}
+
+ 
+.background-fixed{
+  background-image:url(../images/video-bg.jpg);
+  position:fixed ;
+    top: 0;
+    left: 0;
+    z-index: -2;  
+width: 100vw;
+height: 100vh;
+
+}
+.showm{
+  display: block !important;
+}
+
+.model{
+width: 100vw;
+height: 100vh;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  left: 0;
+opacity: .8;
+z-index: 1000;
+
+}
+.model1{
+  position: fixed;
+  opacity: .8;
+width: 50%;
+height: 50%;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1000;
+  display: non ;
+  
+}
+
+.video-btn{
+  font-size: 10px;
+  margin: auto;
+  display: block;
+text-align: center;
+  cursor:pointer;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  
+}

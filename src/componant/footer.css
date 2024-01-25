@@ -1,0 +1,45 @@
+
+.footer{
+  background-image: linear-gradient(to right,#CD9FFA,blueviolet );
+  height:450p ;
+
+  
+
+}
+.footer .container h2{
+  padding-top: 50px;
+}
+.center{
+
+  text-align: center;
+  margin-top: 80px;
+
+
+}
+.footer h2{
+  
+  color: white;
+}
+.footer p{
+  color: white ;
+}
+
+.center img{
+  margin-right: 15px;
+margin-bottom: 50px;
+  border-radius: 10px;
+  
+}
+.designed{
+  
+  margin: 0;
+  text-align: center;
+}
+.designed a{
+  text-decoration: none;
+  color: blueviolet;
+
+}
+.footer1{
+  background-color: white;
+}

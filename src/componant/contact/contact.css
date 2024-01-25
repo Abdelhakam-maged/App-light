@@ -1,0 +1,155 @@
+.contact{
+  display: flex;
+  justify-content: center;
+  
+  }
+  #contact{
+  padding-bottom: 40px;
+}
+  .left-contact{
+    width: 50%;
+    
+  }
+  .form{
+    border-radius: 15px;
+    width: 46%; 
+    height: 40px;
+    padding: 0;
+    margin-left: 20px;
+    border: 1px solid gray;
+  }
+  
+  .sub{
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 20px; 
+    height: 40px;
+    
+    margin-top: 10px;
+    border: 1px solid gray;
+  }
+  .massage{
+    
+    border-radius: 20px;
+    width: 95%; 
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    
+  }
+  .left-contact .btn{
+    background-color: #8e1efc;
+    color: white;
+  }
+  
+  .right-contact{
+    width: 30%;
+    background-image: linear-gradient(to right,#CD9FFA,blueviolet );
+    border-radius: 5px;
+margin-left: 30px;
+  }
+
+  .right-contact span{
+    display: block;
+margin-top: 20px;
+color: white;
+margin-left: 20px;
+font-size: 20px;
+  }
+
+  .teest{
+    display: flex;    
+  }
+  
+  
+  .teest .left{
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+
+  .left h3{
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+
+  .left p{
+    padding: 0;margin: 0;
+    color: white;
+    font-size: 13px;
+  }
+
+  #contact{
+    background-color: white;
+  }
+  @media (max-width:1000px){
+.contact{
+  flex-direction: column;
+  
+}
+.form{
+  display: block;
+  width: 100%;
+  margin: 0;
+margin-top: 10px;
+padding-left: 5px;
+}
+.sub{
+  margin: 0;
+  width: 100%;
+  margin-top: 10px;
+}
+.massage{
+  width: 100%;
+  margin:0 ;
+  margin-top: 10px;
+}
+.left-contact{
+  width: 95%;
+  margin: auto;
+}
+.right-contact{
+  width: 95%;
+  
+  margin: auto;
+  
+  margin-top: 30px;}
+  .teest .left{
+    margin-left: 10px;
+  }
+
+  }
+  @media(max-width:300px){
+    .right-contact{
+      width: 90%;
+    }
+    .left-contact{
+      width: 92%;
+      margin: 0;
+    }
+  }
+
+  @media(min-width: 1350px){
+    .contact{
+      width: 1200px;
+      margin: auto;
+    }
+    }
+
+    ::-webkit-input-placeholder {
+      font-style: italic;
+      font-size: 1em;
+      padding: 10px;
+      
+    }
+    
+  
+    
+  
+    
+    
+    
+    
+    
+    

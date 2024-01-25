@@ -1,0 +1,180 @@
+.navbar-container{
+  width: 100%;
+  height: 70px;
+  background-image: linear-gradient(to right,#CD9FFA,blueviolet );
+
+  position: fixed;
+  z-index: 2;
+}
+.container-nav{
+  height: 70px ;
+  background-color: red;
+}
+.navbar-container-scrolling{
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 70px;
+  
+}
+.navbar-container-scrolling .nav-list ul li a{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+.navbar{
+  display: flex;
+  
+}
+
+
+.nav-list{
+  width: 50%;
+
+}
+.nav-img {
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.nav-list ul {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.nav-list ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.nav-list ul li{
+  list-style: none;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+.icon{
+  display: none;
+}
+.nav-list ul li a:hover{
+  color:blueviolet;
+}
+
+.icon-black{
+  display: none;
+}
+@media(max-width:1000px){
+  .nav-img{
+    
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+   .navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-betwe;
+  } 
+  
+
+  .nav-list ul {
+    padding: 0;
+    flex-direction: column;
+    display: none;
+    animation: y 2s;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  
+
+  .icon{
+    display: block;
+    
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 85%;
+color: white;
+  text-align: right;
+    cursor: pointer;
+    margin-top: 17px;
+  }
+  .icon-black{
+    display: block;
+    
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 85%;
+color: black;
+  text-align: right;
+    cursor: pointer;
+    margin-top: 17px;
+  }
+
+
+  .nav-drop{
+    display: block !important;
+    background-image: linear-gradient(to right,#CD9FFA,blueviolet );
+    width:100vw;
+  
+  margin: auto;
+  border-radius: 5px;
+  
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  
+
+  
+  }
+  .nav-list ul li{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+text-align:center ;
+animation: y 4s;
+
+  }
+  .nav-list ul li a{
+    color: white;
+    text-align: center;
+  }
+}
+
+
+@media(min-width: 1350px){
+.navbar{
+  
+    width: 1200px;
+    margin: auto;
+  }
+
+  }
+
+@media(max-width:700px){
+  .icon{
+    margin-left: 85%;
+  }
+  .icon-black{
+    margin-left: 85%;
+  }
+}  
+@keyframes y{
+  from{
+translate:0 -300px;
+  }
+  to{
+    
+translate: 0 0;
+  }
+}

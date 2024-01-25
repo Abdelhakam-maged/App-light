@@ -1,0 +1,105 @@
+
+.about{
+  background-color: white ;
+
+}
+#about{
+  background-color: white;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+
+  
+  padding-bottom: 50px;
+  
+}
+  .about div{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+
+  }
+  
+  .about-animation{
+    animation-name: x;
+    animation-duration: 4s;
+  }
+  .about span{
+    background-image: linear-gradient(to right,#CD9FFA,blueviolet );
+    font-size: 50px;
+    color: white;
+    border-radius: 50%;
+    display: block;
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    line-height: 135px;
+    cursor: pointer;
+  }
+  .about p{
+    color: gray;
+font-size: 20px;
+}
+  
+.btn{
+  width: 100%;
+  margin: auto ;
+  
+  text-align: center;
+}
+.btn button{
+  
+  height: 50px; 
+  padding: 15;
+  color: blueviolet;
+  border: blueviolet 2px solid;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 50;
+  margin: 0;
+  padding: 0;
+}
+.btn button:hover{
+  background-color: blueviolet;
+  color: white;
+}
+.aboutBtn{
+  background-color: white;
+  padding: 5px 12px !important;
+  margin: 10px !important;
+  margin-bottom: 30px !important;
+  border-radius: 12px !important;
+  cursor: pointer;
+}
+
+@media(max-width:768px){
+.about{
+  flex-direction: column;
+  width: 100%;
+}
+.about div{
+  width: 80%;
+}
+}
+@media(min-width: 1350px){
+.about{
+  width: 1200px;
+  margin: auto;
+}
+}
+
+
+@keyframes x{
+  from{
+translate:0 200px ;
+  }
+  to{
+    
+translate: 0 0;
+  }
+}
